@@ -1,0 +1,78 @@
+/* buttons width and height */
+.button {
+  width: 129px;
+  height: 40px;
+}
+.button_product {
+  width: 80px;
+}
+/* border collapse table  */
+#border_collapse {
+  border-collapse: collapse;
+}
+/* td middle and buttons middle */
+td {
+  vertical-align: middle;
+}
+/* ul,
+li {
+  vertical-align: middle;
+} */
+/* placeholder text */
+::placeholder {
+  font-style: italic;
+}
+/* title of the component */
+/* .heading {
+  padding-top: 20px;
+  padding-bottom: 25px;
+} */
+/* media queries for header component   */
+@media (min-width: 768px) {
+  .button_header {
+    width: 12% !important;
+  }
+  #search_bar {
+    width: 25% !important;
+  }
+}
+@media (max-width: 768px) {
+  .button_header {
+    width: 17% !important;
+  }
+  #search_bar {
+    width: 30% !important;
+  }
+}
+@media (max-width: 576px) {
+  #form_display {
+    display: block !important;
+  }
+  .button_header {
+    width: 30% !important;
+    float: center;
+  }
+  #search_bar {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+}
+@media (max-width: 290px) {
+  .button_header {
+    width: 40% !important;
+  }
+  #search_bar {
+    width: 80% !important;
+  }
+}
+@media (max-width: 436px) {
+  #btn_margin_top {
+    flex-grow: 1;
+    margin: 10px 10px 0px 10px;
+  }
+  #search_ms_0 {
+    margin-left: 0px !important;
+    flex-grow: 1;
+    margin: 0px 10px !important;
+  }
+}
